@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int function(x) {
+int factorial(x) {
     if(x==1)
     return 1;
     else
@@ -11,6 +11,6 @@ int main () {
     int x;
     printf("Input any number of: ");
     scanf("%d",&x);
-    printf("number of %d", function(x));
+    printf("number of %d", factorial(x));
 
 }
